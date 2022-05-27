@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Jewellery.Services
+{
+    internal class Common : Interfaces.ICommon
+    {
+        public void GetRun(Interfaces.IStart start)
+        {
+            start.Run();
+        }
+    }
+}
